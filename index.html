@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Solve equation</title>
+    <!--Page title-->
+    <title>Solve Equation</title>
 </head>
+
 <body>
+    <!-- Input for the first equation ax + by = c -->
     <p>Input for first equation: ax + by = c</p>
     <input type="text" id="a" placeholder="a">
     <input type="text" id="b" placeholder="b">
     <input type="text" id="c" placeholder="c">
 
+    <!-- Input for the second equation dx + ey = f -->
     <p>Input for second equation: dx + ey = f</p>
     <input type="text" id="d" placeholder="d">
     <input type="text" id="e" placeholder="e">
     <input type="text" id="f" placeholder="f">
 
-    <button onclick="solveEquations()">Solve</button>
+    <!-- Button to trigger the solving process -->
+    <button onclick="solveEquation()">Solve</button>
 
+    <!-- Output for the result -->
     <p id="result"></p>
-    <script src="script.js"></script>
+
+    <!-- JavaScript file for processing logic -->
+    <script src="src/script.js"></script> 
+
 </body>
 
 </html>
